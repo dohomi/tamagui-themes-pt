@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.core.json",
+  "compilerOptions": {
+    "composite": true
+  },
+  "exclude": [
+    "generate.ts",
+    "types",
+    "v2.d.ts",
+    "v2.js",
+    "v2-themes.js",
+    "v2-themes.d.ts"
+  ]
+}
