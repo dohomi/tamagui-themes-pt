@@ -57,10 +57,10 @@ const colorThemeDefinition = (colorName) => [
     }
   }
 }).addChildThemes(componentThemeDefinitions, {
-  // to save bundle size but make alt themesNew not work on components
+  // to save bundle size but make alt themes not work on components
   // avoidNestingWithin: ['alt1', 'alt2'],
-}), themesNew = themesBuilder.build();
+}), themes = themesBuilder.build();
 export {
-  themesNew
+  themes
 };
 //# sourceMappingURL=themes-new.js.map

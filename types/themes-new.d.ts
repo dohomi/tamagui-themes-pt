@@ -1,4 +1,4 @@
-export declare const themesNew: {
+export declare const themes: {
     readonly light: {
         background: string;
         backgroundHover: string;

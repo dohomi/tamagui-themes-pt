@@ -14,7 +14,7 @@ var __export = (target, all) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: !0 }), mod);
 var themes_new_exports = {};
 __export(themes_new_exports, {
-  themesNew: () => themesNew
+  themes: () => themes
 });
 module.exports = __toCommonJS(themes_new_exports);
 var import_theme_builder = require("@tamagui/theme-builder"), import_componentThemeDefinitions = require("./componentThemeDefinitions"), import_masks = require("./masks"), import_palettes = require("./palettes"), import_shadows = require("./shadows"), import_templates = require("./templates"), import_tokens = require("./tokens");
@@ -70,11 +70,11 @@ const colorThemeDefinition = (colorName) => [
     }
   }
 }).addChildThemes(import_componentThemeDefinitions.componentThemeDefinitions, {
-  // to save bundle size but make alt themesNew not work on components
+  // to save bundle size but make alt themes not work on components
   // avoidNestingWithin: ['alt1', 'alt2'],
-}), themesNew = themesBuilder.build();
+}), themes = themesBuilder.build();
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  themesNew
+  themes
 });
 //# sourceMappingURL=themes-new.js.map
